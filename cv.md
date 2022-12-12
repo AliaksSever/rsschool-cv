@@ -26,3 +26,31 @@ def random_numbers():
     numbers = [randint(1,10) for num in range(1,10)]
     return numbers
 ```
+
+### Skills
+
+* Python
+  * Django
+  * Flask
+  * NumPy
+  * Pandas
+  * Plotly
+  * Dash
+* Git
+* HTML/CSS
+
+### Education
+
+* **University**: BSU, Faculty of International Relations
+* **Courses**: TeachMeSkills - Python Developer
+
+### Languages
+
+* Russian,Belarusina - native
+* English - B1/B2
+* Spanish - A2
+
+### Personal Information
+
+* 12 years of professional hockey carrer, which gave experience of working in team, resistance to stress and efficiency and focus on result
+* 2,5 month lived and worked in USA by the Work&Travel program
