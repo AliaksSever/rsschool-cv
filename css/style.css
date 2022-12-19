@@ -81,7 +81,7 @@ body {
     padding-left: 30px;
 }
   
-  .section-item::before {
+.section-item::before {
     content: "";
     position: absolute;
     top: 8px;
