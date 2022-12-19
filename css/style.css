@@ -111,6 +111,11 @@ body {
     color: #fff;
     font-weight: 300;
     text-decoration: none;
+    transition: 0.5s;
+}
+
+.contactInfo ul li span a:hover {
+    color: #03a9f4;
 }
 
 .contactInfo.education li {
