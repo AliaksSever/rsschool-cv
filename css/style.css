@@ -132,6 +132,25 @@ body {
     font-weight: 300;
 }
 
+.contactInfo.courses li {
+    margin-bottom: 15px;
+}
+
+.contactInfo.courses h5 {
+    color: #03a9f4;
+    font-weight: 500;
+}
+
+.contactInfo.courses h4:nth-child(2) {
+    color: #fff;
+    font-weight: 500;
+}
+
+.contactInfo.courses h4 {
+    color: #fff;
+    font-weight: 300;
+}
+
 .contactInfo.language .text:nth-child(1){
     font-weight: 500;
 }
