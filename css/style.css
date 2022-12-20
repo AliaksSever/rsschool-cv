@@ -165,3 +165,39 @@ body {
     background: #fff;
     padding: 40px;
 }
+
+.about {
+    margin-bottom: 50px;
+}
+
+.about:last-child {
+    margin-bottom: 0;
+}
+
+.about ul {
+    position: relative;
+    color: #333;
+}
+
+.about ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+}
+
+.about ul li span:nth-child(1){
+    font-weight: 500;
+    margin-right: 5px;
+    color: #2a7da2;
+}
+
+.title2 {
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #333;
+}
