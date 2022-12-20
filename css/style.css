@@ -201,3 +201,13 @@ body {
 p {
     color: #333;
 }
+
+code {
+    background-color: #eee;
+    border: 2px solid #2a7da2;
+    white-space: pre-line;
+}
+
+pre {
+    white-space: initial;
+}
