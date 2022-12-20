@@ -79,23 +79,36 @@ body {
 }
 
 .year-git {
-    border: 1px solid pink;
-    /* text-align: center; */
-    padding: 10px;
+    text-align: center;
+    padding-top: 20px;
     margin: 10px;
 }
 
 .year-git span {
-    border: 1px solid green;
     padding: 10px;
-    margin: 20px;
+}
+
+.year-git .icon {
+    width: 30px;
+    font-size: 24px;
+    color: #03a9f4;
+}
+
+.year-git .icon a{
+    color: #03a9f4;
 }
 
 .rsschool {
-    border: 1px solid green;
     text-align: center;
     padding: 10px;
     margin: 10px;
+}
+
+.rss img{
+    width: 121px;
+    height: 45px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .container {
