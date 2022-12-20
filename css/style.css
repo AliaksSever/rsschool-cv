@@ -1,0 +1,327 @@
+* { 
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth; 
+  }
+
+body {
+    background: lightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    background: #003147;
+}
+
+.nav-list {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-list li:last-child {
+    padding-right: 10px;
+}
+
+.nav-link {
+    position: relative;
+    padding: 0 10px;
+    line-height: 50px;
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.nav-link:hover {
+    color: #03a9f4;
+}
+
+.main {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 35px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    background: #003147;
+}
+
+.footer .container {
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.year-git {
+    text-align: center;
+    padding-top: 20px;
+    margin: 10px;
+}
+
+.year-git span {
+    padding: 10px;
+}
+
+.year-git .icon {
+    width: 30px;
+    font-size: 24px;
+    color: #03a9f4;
+}
+
+.year-git .icon a{
+    color: #03a9f4;
+}
+
+.rsschool {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.rss img{
+    width: 121px;
+    height: 45px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.left_Side {
+    position: relative;
+    background: #003147;
+    padding: 40px;
+}
+
+.profileText {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255,0.2);
+}
+
+.imgBx {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profileText h2 {
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.profileText h2 span {
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.contactInfo {
+    padding-top: 40px;
+}
+
+.title {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.contactInfo ul {
+    position: relative;
+}
+
+.contactInfo ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.contactInfo ul li .icon {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+
+.contactInfo ul li span {
+    color: #fff;
+    font-weight: 300;
+}
+
+.contactInfo ul li span a {
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.contactInfo ul li span a:hover {
+    color: #03a9f4;
+}
+
+.contactInfo.education li {
+    margin-bottom: 15px;
+}
+
+.contactInfo.education h5 {
+    color: #03a9f4;
+    font-weight: 500;
+}
+
+.contactInfo.education h4:nth-child(2) {
+    color: #fff;
+    font-weight: 500;
+}
+
+.contactInfo.education h4 {
+    color: #fff;
+    font-weight: 300;
+}
+
+.contactInfo.courses li {
+    margin-bottom: 15px;
+}
+
+.contactInfo.courses h5 {
+    color: #03a9f4;
+    font-weight: 500;
+}
+
+.contactInfo.courses h4:nth-child(2) {
+    color: #fff;
+    font-weight: 500;
+}
+
+.contactInfo.courses h4 {
+    color: #fff;
+    font-weight: 300;
+}
+
+.contactInfo.language .text:nth-child(1){
+    font-weight: 500;
+}
+
+.right_Side {
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+
+.about {
+    margin-bottom: 50px;
+}
+
+.about:last-child {
+    margin-bottom: 0;
+}
+
+.about ul {
+    position: relative;
+    color: #333;
+}
+
+.about ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+}
+
+.about ul li span:nth-child(1){
+    font-weight: 500;
+    margin-right: 5px;
+    color: #2a7da2;
+}
+
+.title2 {
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #333;
+}
+
+code {
+    background-color: #eee;
+    border: 2px solid #2a7da2;
+    white-space: pre-line;
+}
+
+pre {
+    white-space: initial;
+}
+
+.about.projects ul li a {
+    color: #333;
+    text-decoration: none;
+    transition: 0.5s;
+    list-style: decimal;
+}
+
+.about.projects ul li a:hover {
+    color: #03a9f4;
+}
+
+.about.projects ul li{
+    list-style: disc
+}
+
+
+/* .contactInfo ul li {
+    position: relative;
+    list-style: decimal;
+    margin: 10px 0;
+    cursor: pointer;
+} */
