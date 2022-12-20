@@ -22,7 +22,23 @@
 </head>
 
 <body>
-    <div class="container">
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                  <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                  <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                  <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                  <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
+                  <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                  <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                  <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                </ul>
+              </nav>
+        </div>
+    </header>
+    <main class="main">
         <div class="left_Side">
             <div class="profileText">
                 <div class="imgBx">
@@ -31,7 +47,7 @@
                 <h2>Alexey Severyn<br><span>Python Developer</span></h2>
             </div>
 
-            <section class="contactInfo">
+            <section class="contactInfo" id="contacts">
                 <h3 class="title">Contact Info</h3>
                 <ul>
                     <li>
@@ -54,7 +70,7 @@
                 </ul>
             </section>
 
-            <section class="contactInfo education">
+            <section class="contactInfo education" id="education">
                 <h3 class="title">Education</h3>
                 <ul>
                     <li>
@@ -65,7 +81,7 @@
                 </ul>
             </section>
 
-            <section class="contactInfo courses">
+            <section class="contactInfo courses" id="courses">
                 <h3 class="title">Courses</h3>
                 <ul>
                     <li>
@@ -76,7 +92,7 @@
                 </ul>
             </section>
 
-            <section class="contactInfo language">
+            <section class="contactInfo language" id="languages">
                 <h3 class="title">Languages</h3>
                 <ul>
                     <li>
@@ -101,7 +117,7 @@
         </div>
 
         <div class="right_Side">
-            <section class="about">
+            <section class="about" id="profile">
                 <h2 class="title2">Profile</h2>
                 <p>Hi, my name is Alex and I'm really exciting to become real professional in development.<br><br>
                     I really enjoy programming, finding it interesting and exciting.<br>
@@ -109,7 +125,7 @@
                     I've completed several courses and also would like to try web-development 
                     so now I'm improving my skills in HTML and CSS and learning JavaScript.</p>
             </section>
-            <section class="about">
+            <section class="about" id="skills">
                 <h2 class="title2">Skills</h2>
                 <ul>
                     <li>
@@ -127,7 +143,7 @@
                 </ul>
             </section>
 
-            <section class="about code">
+            <section class="about code" id="code">
                 <h2 class="title2">Code</h2>
                 <pre>
                     <code class="python">
@@ -142,7 +158,7 @@
                 </pre>    
             </section>
 
-            <section class="about projects">
+            <section class="about projects" id="projects">
                 <h2 class="title2">Projects</h2>
                 <ul>
                     <li>
@@ -152,6 +168,9 @@
             </section>
             
         </div>
-    </div>
+    </main>
+    <footer class="footer">
+        <div class="container">Footer</div>
+    </footer>
 </body>
 </html>
