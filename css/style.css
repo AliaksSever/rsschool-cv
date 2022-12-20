@@ -64,11 +64,38 @@ body {
 }
 
 .footer {
-    border: 3px solid pink;
     position: relative;
     width: 100%;
     max-width: 1000px;
     background: #003147;
+}
+
+.footer .container {
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.year-git {
+    border: 1px solid pink;
+    /* text-align: center; */
+    padding: 10px;
+    margin: 10px;
+}
+
+.year-git span {
+    border: 1px solid green;
+    padding: 10px;
+    margin: 20px;
+}
+
+.rsschool {
+    border: 1px solid green;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
 }
 
 .container {
