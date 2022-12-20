@@ -211,3 +211,26 @@ code {
 pre {
     white-space: initial;
 }
+
+.about.projects ul li a {
+    color: #333;
+    text-decoration: none;
+    transition: 0.5s;
+    list-style: decimal;
+}
+
+.about.projects ul li a:hover {
+    color: #03a9f4;
+}
+
+.about.projects ul li{
+    list-style: disc
+}
+
+
+/* .contactInfo ul li {
+    position: relative;
+    list-style: decimal;
+    margin: 10px 0;
+    cursor: pointer;
+} */
